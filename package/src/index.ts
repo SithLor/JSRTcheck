@@ -3,12 +3,12 @@
  * 
  * `function d(i){`
  * 
- * `new RunCheck().CheckArgs(i,"object");`
+ * `new RunTimeCheck().CheckArgs(i,"object");`
  * 
  * `}`
  * 
  */
-export default class RunCheck {
+export default class RunTimeCheck {
     CheckArgs(input: any, type: "string" | "number" | "object" | "void"|"boolen"): void {
       switch (type) {
         case "string":
