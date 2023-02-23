@@ -7,6 +7,7 @@
  * 
  * `}`
  * 
+ * CJS
  */
 export default class RunTimeCheck {
     CheckArgs(input: any, type: "string" | "number" | "object" | "void"|"boolen"): void {
