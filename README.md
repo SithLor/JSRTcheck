@@ -1,13 +1,13 @@
 # JSRTCheck
 ## installtion
 ```
-npm i JSRTCheck
+npm i RTCheck
 ```
 
 ## usage
 ESM 
 ```js
-import RunTimeCheck from "JSRTcheck"
+import RunTimeCheck from "RTcheck"
 function app(s){
    new RunTimeCheck().CheckArgs(s,"number")
 }
@@ -15,7 +15,7 @@ app("s")
 ```
 CJS
 ```js
-var a = require('JSRTcheck')
+var a = require('rtcheck')
 function app(s){
    new a.default().CheckArgs(s,"number")
 }
